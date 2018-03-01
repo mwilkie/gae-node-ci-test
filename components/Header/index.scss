@@ -1,0 +1,34 @@
+.Header {
+  padding: 20px 0;
+  background: #666;
+  box-shadow: 4px 0 8px 0 #bbb;
+  font-size: 14px;
+  color: #eee;
+
+  h4 {
+    margin: 0 0 16px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  &__nav-link {
+    text-decoration: none;
+    color: #aacdff;
+  }
+
+  &__nav-group {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #888;
+  }
+
+  &__nav-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__nav-item {
+    padding: 0 0 16px 12px;
+  }
+}

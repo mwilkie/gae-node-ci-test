@@ -1,0 +1,17 @@
+.Button {
+  padding: 2.5px 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &--medium {
+    padding: 7.5px 10px;
+  }
+
+  &--large {
+    padding: 10px 15px;
+  }
+}

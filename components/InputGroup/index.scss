@@ -1,0 +1,15 @@
+.InputGroup {
+  &__heading {
+    border-bottom: 2px solid #ccc;
+  }
+  &__field {
+    margin-bottom: 10px;
+    .Input {
+      width: 100%;
+    }
+    .Textarea {
+      width: 100%;
+      min-height: 4em;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "workflow-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "next build && gcloud app deploy --project=playground-194317",
+    "dev": "NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "jest --watch",
+    "test-ci": "jest",
+    "format": "eslint ./**/**.js --fix"
+  },
+  "engines": {
+    "node": "8.9.4",
+    "yarn": "1.5.1"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.1.1",
+    "apollo-client-preset": "^1.0.6",
+    "classnames": "^2.2.5",
+    "date-fns": "^1.29.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "graphql": "^0.12.3",
+    "graphql-anywhere": "^4.1.1",
+    "graphql-tag": "^2.6.1",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^5.0.0",
+    "node-sass": "^4.7.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-modal": "^3.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "yarn": "^1.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.1.1",
+    "prettier": "1.10.2"
+  }
+}

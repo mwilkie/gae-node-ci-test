@@ -1,0 +1,21 @@
+.Page {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  min-height: 100vh;
+
+  main {
+    margin: auto;
+    padding: 20px;
+    max-width: 48em;
+  }
+
+  &__notifications {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    left: 50%;
+    width: 50%;
+  }
+}

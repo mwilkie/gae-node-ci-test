@@ -1,0 +1,12 @@
+.MetadataForm {
+  &__fields {
+    margin-bottom: 20px;
+  }
+  &__actions {
+    display: flex;
+    align-items: center;
+  }
+  &__action-item {
+    margin-right: 10px;
+  }
+}

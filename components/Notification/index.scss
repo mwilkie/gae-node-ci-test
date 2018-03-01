@@ -1,0 +1,16 @@
+.Notification {
+  margin: 15px 15px 15px 0;
+  padding: 10px;
+  box-shadow: -5px 10px 25px rgba(0, 0, 0, 0.5);
+  background-color: #72c2f7;
+  color: #fff;
+
+  &--error {
+    background-color: #f6555c;
+  }
+
+  &__close {
+    text-align: right;
+    margin: 0 0 10px;
+  }
+}

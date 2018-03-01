@@ -1,0 +1,6 @@
+env: flex
+runtime: nodejs
+service: workflow
+instance_class: B1
+manual_scaling:
+  instances: 1
