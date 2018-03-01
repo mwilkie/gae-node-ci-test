@@ -3,7 +3,7 @@ sudo: false
 language: node
 
 before_install:
-- sudo curl https://sdk.cloud.google.com | bash --disable-prompts --install-dir=/tmp
+- sudo curl https://sdk.cloud.google.com | /tmp/gcloud-install.sh; bash /tmp/gcloud-install.sh --disable-prompts --install-dir=/tmp
 - sudo ls -l /tmp
 
 script:
