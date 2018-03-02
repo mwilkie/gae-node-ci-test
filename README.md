@@ -17,6 +17,11 @@ Install `node_modules`:
 yarn install
 ```
 
+To test:
+
+```
+yarn run test-ci
+
 To run:
 
 ```
