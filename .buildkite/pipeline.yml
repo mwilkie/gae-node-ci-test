@@ -2,4 +2,4 @@ steps:
   - command: "yarn update"
     label: "yarn setup"   
   - command: "yarn run test-ci"
-    label: "run tests"   
+    label: "run tests" 
